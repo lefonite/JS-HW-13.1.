@@ -1,0 +1,21 @@
+$black: #000000;
+$white: #ffffff;
+$accent: #F0145A;
+$grey-text: #B3B3BA;
+$grey-separator: #E6E6F0;
+$grey-bg: #F5F5FA;
+$active: #24A3FF;
+$active-hover: #0085FF;
+$active-active: #006CCF;
+$main-regular: #323264;
+$main-soft: #686887;
+$main-alt: #46466E;
+
+$gradient-red-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+$supersoft: linear-gradient(228.57deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+
+.error{
+    color: $accent;
+    font-weight: 600;
+    font-size: 14px;
+}

@@ -1,0 +1,20 @@
+@import '../colors/style.scss';
+@import '../mixins/style.scss';
+
+.btn{
+    background-color: $active;
+    padding: 18px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px rgba($color: $active, $alpha: 0.5);
+    strong{
+        color: $white;
+    }
+}
+.btn:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    background-color: $active-hover;
+}
+.btn:active{
+    background-color: $active-active;
+}

@@ -1,0 +1,14 @@
+@mixin flex($flex-flow, $align, $justify, $gap){
+    display: flex;
+    flex-flow: $flex-flow;
+    align-items: $align;
+    justify-content: $justify;
+    gap: $gap;
+}
+@mixin Montserrat($size, $weight, $height, $letter){
+    font-family: 'Montserrat', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: $letter;
+}

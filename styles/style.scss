@@ -1,0 +1,31 @@
+@import './colors/style.scss';
+@import './mixins/style.scss';
+@import './button/style.scss';
+
+@import './contact-page/style.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+//FONTS
+h1{
+    @include Montserrat(2.375rem, 700, 2.875rem, 0em);
+}
+h2{
+    @include Montserrat(1.875rem, 700, 2.3125rem, 0em);
+}
+h3{
+    @include Montserrat(1.375rem, 700, 1.6875rem, 0em);
+}
+h4{
+    @include Montserrat(1rem, 700, 1.25rem, 0em);
+}
+p{
+    @include Montserrat(1rem, 400, 1.625rem, 0em);
+}
+
+
+
+

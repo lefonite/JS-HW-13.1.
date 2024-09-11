@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <section class="contact-page">
+        <div class="contact-page__phorm-wrapper">
+            <form class="phorm" action="#" name="phorm">
+                <p class="phorm__title">
+                    We would like to help you
+                </p>
+                <div class="phorm__items">
+                    <input type="text" id="name" name="name" placeholder="Name" required autocomplete="on">
+                    <span class="error" id="nameError">Введите нормально имя</span>
+                    <textarea type="text" id="message" name="message" placeholder="Message"></textarea>
+                    <span class="error" id="messageError">Введите нормальное сообщение</span>
+                </div>
+                <div class="phorm__items">
+                    <p class="phorm__subtitle">How to answer you?</p>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="Phone number">
+                    <span class="error" id="phoneError">Неккоректный номер телефона!</span>
+
+                    <input type="email" id="email" name="email" placeholder="Email" autocomplete="on">
+                    <span class="error" id="emailError">Проверьте правильность почты!</span>
+                </div>
+                <button class="btn" type="submit"><a href="№"><strong>Send message</strong></a></button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
